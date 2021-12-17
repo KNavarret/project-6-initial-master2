@@ -15,10 +15,12 @@ public class Entry {
     }
 
     public String getWord() {
+
         return word;
     }
 
     public void setWord(String word) {
+
         this.word = word;
     }
 

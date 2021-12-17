@@ -28,8 +28,8 @@ public class AggregatorController {
         return service.getDefinitionFor(word);
     }
 
-    @GetMapping("/getAllPalindromes/{word}")
-    public List<Entry> getAllPalindromes(@PathVariable String word) {
+    @GetMapping("/getAllPalindromes")
+    public List<Entry> getAllPalindromes() {
 
         return service.getAllPalindromes();
     }
